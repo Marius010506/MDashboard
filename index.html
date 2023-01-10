@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MonkeyNetworks Webpanel</title>
+  <title>MonkeyNetworks Dashboard</title>
   <!-- Material CDN -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
   rel="stylesheet">
@@ -129,42 +129,6 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>cuzitsjonny</td> <!--- TEST CREATOR --->
-                  <td>GigaChad Profile Picture</td> <!--- TEST REASON --->
-                  <td>Luma</td> <!--- TEST STAFF --->
-                  <td class="warning">Pending</td> <!--- TEST STATUS --->
-                  <td>09.01.2023 16:41</td> <!--- TEST DATE --->
-                </tr>
-                <tr>
-                  <td>cuzitsjonny</td> <!--- TEST CREATOR --->
-                  <td>IPv6 for the Win</td> <!--- TEST REASON --->
-                  <td>Luma</td> <!--- TEST STAFF --->
-                  <td class="danger">Canceled</td> <!--- TEST STATUS --->
-                  <td>09.01.2023 16:40</td> <!--- TEST DATE --->
-                </tr>
-                <tr>
-                  <td>cuzitsjonny</td> <!--- TEST CREATOR --->
-                  <td>RDM</td> <!--- TEST REASON --->
-                  <td>Luma</td> <!--- TEST STAFF --->
-                  <td class="success">Completed</td> <!--- TEST STATUS --->
-                  <td>09.01.2023 16:39</td> <!--- TEST DATE --->
-                </tr>
-                <tr>
-                  <td>cuzitsjonny</td> <!--- TEST CREATOR --->
-                  <td>VDM</td> <!--- TEST REASON --->
-                  <td>Luma</td> <!--- TEST STAFF --->
-                  <td class="success">Completed</td> <!--- TEST STATUS --->
-                  <td>09.01.2023 16:38</td> <!--- TEST DATE --->
-                </tr>
-                <tr>
-                  <td>cuzitsjonny</td> <!--- TEST CREATOR --->
-                  <td>Question about your Onlyfans</td> <!--- TEST REASON --->
-                  <td>Luma</td> <!--- TEST STAFF --->
-                  <td class="success">Completed</td> <!--- TEST STATUS --->
-                  <td>09.01.2023 16:37</td> <!--- TEST DATE --->
-                </tr>
-              </tbody>
             </table>
           </div>
        </main>
@@ -222,7 +186,52 @@
             </div>
           </div>
         </div>
+   <!--------------------------- END OF PURCHASES --------------------------->
+    <div class="sales-analytics">
+      <h2>Sales Analytics</h2>
+      <div class="orders">
+        <div class="icon">
+          <span class="material-icons-sharp">shopping_cart</span>
+        </div>
+        <div class="right">
+          <div class="info">
+            <h3>ORDERS</h3>
+            <small class ="text-muted">Last 24 Hours</small>
+          </div>
+          <h5 class="success">+50%</h5> <!--- REPLACE WITH + OR - % FROM THE DAY BEFORE --->
+          <h3>10</h3> <!--- REPLACE WITH ORDER AMOUNT --->
+        </div>
       </div>
+      <div class="orders earnings">
+        <div class="icon">
+          <span class="material-icons-sharp">payments</span>
+        </div>
+        <div class="right">
+          <div class="info">
+            <h3>EARNINGS</h3>
+            <small class ="text-muted">Last 24 Hours</small>
+          </div>
+          <h5 class="danger">-50%</h5> <!--- REPLACE WITH + OR - % FROM THE DAY BEFORE --->
+          <h3>50€</h3> <!--- REPLACE WITH ORDER AMOUNT --->
+        </div>
+      </div>
+      <div class="orders customers">
+        <div class="icon">
+          <span class="material-icons-sharp">person</span>
+        </div>
+        <div class="right">
+          <div class="info">
+            <h3>NEW CUSTOMER</h3>
+            <small class ="text-muted">Last 24 Hours</small>
+          </div>
+          <h5 class="warning">0%</h5> <!--- REPLACE WITH + OR - % FROM THE DAY BEFORE --->
+          <h3>10</h3> <!--- REPLACE WITH ORDER AMOUNT --->
+        </div>
+      </div>
+     </div>
     </div>
+  </div>
+  <script src="./tickets.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
