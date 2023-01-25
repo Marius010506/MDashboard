@@ -1,6 +1,6 @@
 Dashboard for MonkeyNetworks - 
 New Features: Light/Darkmode and Hover Animations :D - 
-Planned: Backend - 
+Planned: Backend
 
 Test it yourself here: http://ws-luma.nmbr.one/dashboard/
 
